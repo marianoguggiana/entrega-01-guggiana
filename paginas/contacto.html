@@ -25,17 +25,19 @@
     </nav>
     <section>
     <form action="">
-        <fieldset>
+        <fieldset class="form">
             <legend>
                 Informacion Contacto:</legend>
+                
                 <label for="">Sexo:</label>
                 <input type="radio" name="sexo" value="Hombre"><label for="Sexo">Hombre</label>
                 <input type="radio" name="sexo" value="Mujer"><label for="Sexo">Mujer</label>
-                <p>Nombre:</p>
-                <input type="text" placeholder="Nombre" name="nombre">
-                <p>Apellido:</p>
-                <input type="text" placeholder="Apellido" name="apellido">
-                <p></p>
+                <div class="textpad"><p>Nombre:</p>
+                    <input type="text" placeholder="Nombre" name="nombre">
+                </div>
+                <div class="textpad"><p>Apellido:</p>
+                    <input type="text" placeholder="Apellido" name="apellido">
+                </div>
                 <br>
                 <label for="interes">Interés:</label>
                 <select name="interes" id="">
