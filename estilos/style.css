@@ -38,6 +38,9 @@ a:visited {
     background: #141426;
     padding-top: 10px;
 }
+ul li{
+    display: inline-block;
+}
 .logo--specialcolor{
     color: white;
 
