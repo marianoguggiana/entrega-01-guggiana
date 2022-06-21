@@ -47,6 +47,17 @@ a:visited {
 ul li{
     display: inline-block;
 }
+.form{
+    margin: 50px;
+    padding: 8px;
+    width: 200px;
+    background-color: #141426;
+    color: white;
+    font-size: 1.2rem;
+}
+.textpad{
+    padding-top: 5px;
+}
 .logo--specialcolor{
     color: white;
 
